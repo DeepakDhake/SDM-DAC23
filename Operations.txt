@@ -1,0 +1,33 @@
+Bussiness Operations to be automated by Online Food Delivery System:
+
+Apply Coupon / Offercode
+Change language
+Give tip to delivery partner
+Deliver parcel
+Track order
+Approve Order
+Add items to cart
+Remove items from cart
+Show item
+Place order
+Show orders 
+Show orderdetails
+Raise complaint
+Cancel order
+Recommend Food Items
+Submit feedback
+Update customer personal information
+Register vendor
+Validate user
+Change password
+Forgot passwrod
+Get user details
+Login
+Logout
+Notify
+Get customer details
+List products
+show product details
+Add items to favourites
+Remove items from favourites
+Show items available in favourites

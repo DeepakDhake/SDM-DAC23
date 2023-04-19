@@ -1,0 +1,84 @@
+Document: System Requirement Specification Document
+
+Title: Online Food Order and Delivery System
+
+Team: 
+Direct Customer, Indirect Customer, Architect, Business   Analyst, Quality Assurance Team, System Analyst.  
+
+Objective (Purpose): The purpose of this SRS is to outline both the functional and non-functional requirements of the online food ordering system. This application is used to give restaurants, hotels, cafes, and other businesses as well as clients a complete solution for managing online food orders and other services. It will allow hotels to set up online eateries, customers to explore applications, and food purchases made without physically visiting the shop. 
+
+Scope: The ordering process will be made simpler and more effective for both customers and hotels as a whole. The customer will be able to examine their order history and may cancel their order within 60 Seconds of placing it. This service will only be accessible in India and will be offered 24/7, however specific hours may vary from city to city.
+	
+Requirements:
+
+Functional Requirements:
+
+•	Customer registration: Users should be able to register for an account by entering their contact details, including their name, email address, phone number, and address. The system should 	check the validity of the customer's phone number and email address.
+
+•	Consumer will be able to add or remove selected food items from menu. System will maintain food items cart for each consumer to maintain list of items selected by him/her. Consumer will be 		able to view all items from menu. Item cart will present food details, number of items of food selected by consumer with price and total. Consumer will be able to process for Order 		placement.
+
+•	Registered Customer will be able place an order with the help of food item cart maintained by system. Registered Customer will be able to cancel placed order within 60 seconds. Registered 		customer get orders history. The user and vendor will be able to track the location of delivery partner.
+
+•	Consumer will be provided options for payment such as through internet banking or UPI or Online payment option.
+
+•	Consumer will asked to submit their payment related information. Consumer will be redirected to payment gateway for secure payment transaction. On successful payment processing using 		payment gateway system will notify consumer about transaction and food order placement status.
+
+•	Vendors will be able to raise a request to bring their business online which will be forwarded to broker/agency.
+
+•	User Management: The system should provide administrative users with the ability to manage users, including adding, editing, and deleting users. The system should also provide role-based 		access control, allowing different levels of access for different types of users.
+
+•	The request will be processed by the broker and a food inspection officer will be appointed to check the quality of food and Environment of the vendors. Based on it the officer will approve 	or reject the request of that particular vendor.
+ 
+•	Vendors should be able to add, update, and delete menu items, together with their descriptions, prices, and photographs, using the system. From a web-based dashboard, restaurants should be 		able to manage their menu items.
+
+•	Only registered vendors will be able promote their food items for sale by adding menu to the food catalog maintained by the System.
+
+•	Delivery partner who is near to the particular address of restaurant will be notified of the receiving request by the broker/agency which would contain the address of vendor and user. The 		delivery partner will have the permission to approve or reject the incoming request. 
+
+
+Non-Functional Requirement:
+Performance: 
+•	The server must be able to support an unlimited number of devices i.e., it must place no restrictions on the number of gadgets that can be used simultaneously. A limitless amount of active 	client payments must be supported by the server, and payments must never be lost.
+
+Security: 
+•	Registered Customer will be allowed to place an order.
+•	Sensitive data will always be transmitted with encryption. The system will internally maintain a secure communication channel between servers (web servers, application servers, database 	servers). 
+
+Reliability:
+•	The system should be scalable, with the ability to accommodate a large number of users at once. 
+•	The site's response time should be as quick as feasible, and it should be able to load balance the server.
+
+Availability:
+•	Uptime:   24* 7  Available 99.999%
+
+Maintainability:
+•	A Commercial database software will be used to maintain System data Persistence.
+•	A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+•	IT operations team will easily monitor and configure System using Administrative tools provided by Servers.
+•	Separate environment will be maintained for system for isolation in production, testing, and development.
+
+Portability:
+•	PDA: Portable Device Application
+•	System will provide portable User Interface (HTML, CSS, JS) through users will be able to access online food ordering portal.
+•	System can be deployed to single server, multi-server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+•	After authentication, only logged-in users will be able to place an order.
+•	Through a personalized dashboard, the BOD team will be able to monitor daily, weekly, monthly, and annual business growth.
+
+Efficiency:
+•	On Festival season, maximum number of users will place order, view dishes with same response time.
+•	System will be able to manage all transactions with isolation.
+
+Safety:
+•	The certified delivery partner should not damage the food item or should not tamper the food package.
+•	Food inspector will check the quality of food and environment in which food is being prepared based on this they will approve or reject the request for getting registered as a certified vendor.    
+
+Scalability:
+•	Online food portal will be secure from malicious attack, fishing.
+•	Online food portal functionalities are protected from outside with proper firewall configuration.
+•	Online food portal will be always kept updated with latest antivirus software.
+•	Business data will be backed up periodically to ensure safety of data using incremental back up strategy.
+•	Role based security will be applied for Application data and operations accessibility.
+
+

@@ -1,0 +1,20 @@
+Entities for Online Food Delivery System:
+
+1 Customer
+2 Items
+3 Category
+4 Order
+5 User
+6 Agency/Broker
+7 Restaurent
+8 Location
+9 Payment
+10 Delivery
+11 Customer Address
+12 Delivery Partner
+13 Transcation Details
+14 Order Details
+15 Carts
+16 Cart_Items
+
+

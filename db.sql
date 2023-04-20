@@ -39,6 +39,30 @@ create table agency(
    email varchar(20),
    username varchar(20),
    passwd varchar(20));
+   
+create table restaurent(
+	rest_id int primary key auto_increment,
+	rest_name varchar(20),
+	owner varchar(20),
+	email varchar(20),
+	phoneno varchar(20));
+create table location(
+	loc_id int primary key auto_increment,
+	loc_name varchar(20));
+create table transaction(
+	trans_id  int primary key auto_increment,
+	amount double(9,2),
+	trans_date Date);
+create table payment(
+	pay_id int primary key auto_increment,
+	pay_date Date,
+	 amount double(9,2),
+	pay_mode varchar(20),
+	status varchar(20));
+create table delivery(
+	del_id int primary key auto_increment,
+	dest varchar(20),
+	del_part varchar(20));
 
 
 

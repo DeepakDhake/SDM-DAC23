@@ -63,6 +63,14 @@ create table delivery(
 	del_id int primary key auto_increment,
 	dest varchar(20),
 	del_part varchar(20));
+ create table  cart_item (
+  cart_item_id int primary key auto_increment,
+  itemname varchar(20),
+  price double(9,2),
+  qty int check(qty>0));
+  create table cart(
+   
+
 
 
 

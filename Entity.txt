@@ -10,11 +10,8 @@ Entities for Online Food Delivery System:
 8 Location
 9 Payment
 10 Delivery
-11 Customer Address
-12 Delivery Partner
-13 Transcation Details
-14 Order Details
-15 Carts
-16 Cart_Items
+11 Transcation Details
+13 Order Details
+14 Carts
 
 
